@@ -1,0 +1,220 @@
+Mamba 130M Zero-shot
+hf (pretrained=state-spaces/mamba-130m-hf), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     0|acc     |0.3080|±  |0.0046|
+|             |       |none  |     0|acc_norm|0.3525|±  |0.0048|
+|arc_easy     |      1|none  |     0|acc     |0.4798|±  |0.0103|
+|             |       |none  |     0|acc_norm|0.4192|±  |0.0101|
+|arc_challenge|      1|none  |     0|acc     |0.1971|±  |0.0116|
+|             |       |none  |     0|acc_norm|0.2423|±  |0.0125|
+
+Pythia 160M Zero-shot
+hf (pretrained=EleutherAI/pythia-160m), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     0|acc     |0.2847|±  |0.0045|
+|             |       |none  |     0|acc_norm|0.3034|±  |0.0046|
+|arc_easy     |      1|none  |     0|acc     |0.4364|±  |0.0102|
+|             |       |none  |     0|acc_norm|0.3939|±  |0.0100|
+|arc_challenge|      1|none  |     0|acc     |0.1860|±  |0.0114|
+|             |       |none  |     0|acc_norm|0.2415|±  |0.0125|
+
+Mamba 370M Zero-shot
+hf (pretrained=state-spaces/mamba-370m-hf), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     0|acc     |0.3721|±  |0.0048|
+|             |       |none  |     0|acc_norm|0.4648|±  |0.0050|
+|arc_easy     |      1|none  |     0|acc     |0.5497|±  |0.0102|
+|             |       |none  |     0|acc_norm|0.4819|±  |0.0103|
+|arc_challenge|      1|none  |     0|acc     |0.2500|±  |0.0127|
+|             |       |none  |     0|acc_norm|0.2790|±  |0.0131|
+
+Pythia 410M Zero-shot
+hf (pretrained=EleutherAI/pythia-410m), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     0|acc     |0.3369|±  |0.0047|
+|             |       |none  |     0|acc_norm|0.4056|±  |0.0049|
+|arc_easy     |      1|none  |     0|acc     |0.5194|±  |0.0103|
+|             |       |none  |     0|acc_norm|0.4588|±  |0.0102|
+|arc_challenge|      1|none  |     0|acc     |0.2133|±  |0.0120|
+|             |       |none  |     0|acc_norm|0.2449|±  |0.0126|
+
+Mamba 790M Zero-shot
+hf (pretrained=state-spaces/mamba-790m-hf), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     0|acc     |0.4230|±  |0.0049|
+|             |       |none  |     0|acc_norm|0.5507|±  |0.0050|
+|arc_easy     |      1|none  |     0|acc     |0.6124|±  |0.0100|
+|             |       |none  |     0|acc_norm|0.5383|±  |0.0102|
+|arc_challenge|      1|none  |     0|acc     |0.2662|±  |0.0129|
+|             |       |none  |     0|acc_norm|0.2935|±  |0.0133|
+
+Pythia 1B Zero-shot
+hf (pretrained=EleutherAI/pythia-1b), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     0|acc     |0.3776|±  |0.0048|
+|             |       |none  |     0|acc_norm|0.4714|±  |0.0050|
+|arc_easy     |      1|none  |     0|acc     |0.5699|±  |0.0102|
+|             |       |none  |     0|acc_norm|0.4903|±  |0.0103|
+|arc_challenge|      1|none  |     0|acc     |0.2440|±  |0.0126|
+|             |       |none  |     0|acc_norm|0.2696|±  |0.0130|
+
+Mamba 1.4B Zero-shot
+hf (pretrained=state-spaces/mamba-1.4b-hf), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     0|acc     |0.4505|±  |0.0050|
+|             |       |none  |     0|acc_norm|0.5911|±  |0.0049|
+|arc_easy     |      1|none  |     0|acc     |0.6553|±  |0.0098|
+|             |       |none  |     0|acc_norm|0.6120|±  |0.0100|
+|arc_challenge|      1|none  |     0|acc     |0.2978|±  |0.0134|
+|             |       |none  |     0|acc_norm|0.3294|±  |0.0137|
+
+Pythia 1.4B Zero-shot
+hf (pretrained=EleutherAI/pythia-1.4b), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     0|acc     |0.4044|±  |0.0049|
+|             |       |none  |     0|acc_norm|0.5201|±  |0.0050|
+|arc_easy     |      1|none  |     0|acc     |0.6065|±  |0.0100|
+|             |       |none  |     0|acc_norm|0.5387|±  |0.0102|
+|arc_challenge|      1|none  |     0|acc     |0.2602|±  |0.0128|
+|             |       |none  |     0|acc_norm|0.2858|±  |0.0132|
+
+Mamba 2.8B Zero-shot
+hf (pretrained=state-spaces/mamba-2.8b-hf), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     0|acc     |0.4949|±  |0.0050|
+|             |       |none  |     0|acc_norm|0.6616|±  |0.0047|
+|arc_easy     |      1|none  |     0|acc     |0.6965|±  |0.0094|
+|             |       |none  |     0|acc_norm|0.6423|±  |0.0098|
+|arc_challenge|      1|none  |     0|acc     |0.3430|±  |0.0139|
+|             |       |none  |     0|acc_norm|0.3626|±  |0.0140|
+
+Pythia 2.8B Zero-shot
+hf (pretrained=EleutherAI/pythia-2.8b), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     0|acc     |0.4531|±  |0.0050|
+|             |       |none  |     0|acc_norm|0.5933|±  |0.0049|
+|arc_easy     |      1|none  |     0|acc     |0.6431|±  |0.0098|
+|             |       |none  |     0|acc_norm|0.5880|±  |0.0101|
+|arc_challenge|      1|none  |     0|acc     |0.2935|±  |0.0133|
+|             |       |none  |     0|acc_norm|0.3302|±  |0.0137|
+
+Mamba 130M Few-shot
+hf (pretrained=state-spaces/mamba-130m-hf), gen_kwargs: (None), limit: None, num_fewshot: 5, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     5|acc     |0.3074|±  |0.0046|
+|             |       |none  |     5|acc_norm|0.3483|±  |0.0048|
+|arc_easy     |      1|none  |     5|acc     |0.4920|±  |0.0103|
+|             |       |none  |     5|acc_norm|0.4684|±  |0.0102|
+|arc_challenge|      1|none  |     5|acc     |0.2073|±  |0.0118|
+|             |       |none  |     5|acc_norm|0.2389|±  |0.0125|
+
+Pythia 160M Few-shot
+hf (pretrained=EleutherAI/pythia-160m), gen_kwargs: (None), limit: None, num_fewshot: 5, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     5|acc     |0.2876|±  |0.0045|
+|             |       |none  |     5|acc_norm|0.3071|±  |0.0046|
+|arc_easy     |      1|none  |     5|acc     |0.4411|±  |0.0102|
+|             |       |none  |     5|acc_norm|0.4179|±  |0.0101|
+|arc_challenge|      1|none  |     5|acc     |0.1903|±  |0.0115|
+|             |       |none  |     5|acc_norm|0.2304|±  |0.0123|
+
+Mamba 370M Few-shot
+hf (pretrained=state-spaces/mamba-370m-hf), gen_kwargs: (None), limit: None, num_fewshot: 5, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     5|acc     |0.3681|±  |0.0048|
+|             |       |none  |     5|acc_norm|0.4624|±  |0.0050|
+|arc_easy     |      1|none  |     5|acc     |0.5825|±  |0.0101|
+|             |       |none  |     5|acc_norm|0.5724|±  |0.0102|
+|arc_challenge|      1|none  |     5|acc     |0.2543|±  |0.0127|
+|             |       |none  |     5|acc_norm|0.2799|±  |0.0131|
+
+Pythia 410M Few-shot
+hf (pretrained=EleutherAI/pythia-410m), gen_kwargs: (None), limit: None, num_fewshot: 5, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     5|acc     |0.3388|±  |0.0047|
+|             |       |none  |     5|acc_norm|0.4063|±  |0.0049|
+|arc_easy     |      1|none  |     5|acc     |0.5455|±  |0.0102|
+|             |       |none  |     5|acc_norm|0.5362|±  |0.0102|
+|arc_challenge|      1|none  |     5|acc     |0.2218|±  |0.0121|
+|             |       |none  |     5|acc_norm|0.2662|±  |0.0129|
+
+Mamba 790M Few-shot
+hf (pretrained=state-spaces/mamba-790m-hf), gen_kwargs: (None), limit: None, num_fewshot: 5, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     5|acc     |0.4180|±  |0.0049|
+|             |       |none  |     5|acc_norm|0.5459|±  |0.0050|
+|arc_easy     |      1|none  |     5|acc     |0.6456|±  |0.0098|
+|             |       |none  |     5|acc_norm|0.6427|±  |0.0098|
+|arc_challenge|      1|none  |     5|acc     |0.2833|±  |0.0132|
+|             |       |none  |     5|acc_norm|0.3208|±  |0.0136|
+
+Pythia 1B Few-shot
+hf (pretrained=EleutherAI/pythia-1b), gen_kwargs: (None), limit: None, num_fewshot: 5, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     5|acc     |0.3764|±  |0.0048|
+|             |       |none  |     5|acc_norm|0.4732|±  |0.0050|
+|arc_easy     |      1|none  |     5|acc     |0.5871|±  |0.0101|
+|             |       |none  |     5|acc_norm|0.5741|±  |0.0101|
+|arc_challenge|      1|none  |     5|acc     |0.2568|±  |0.0128|
+|             |       |none  |     5|acc_norm|0.2850|±  |0.0132|
+
+Mamba 1.4B Few-shot
+hf (pretrained=state-spaces/mamba-1.4b-hf), gen_kwargs: (None), limit: None, num_fewshot: 5, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     5|acc     |0.4469|±  |0.0050|
+|             |       |none  |     5|acc_norm|0.5902|±  |0.0049|
+|arc_easy     |      1|none  |     5|acc     |0.6641|±  |0.0097|
+|             |       |none  |     5|acc_norm|0.6591|±  |0.0097|
+|arc_challenge|      1|none  |     5|acc     |0.3114|±  |0.0135|
+|             |       |none  |     5|acc_norm|0.3549|±  |0.0140|
+
+Pythia 1.4B Few-shot
+hf (pretrained=EleutherAI/pythia-1.4b), gen_kwargs: (None), limit: None, num_fewshot: 5, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     5|acc     |0.4056|±  |0.0049|
+|             |       |none  |     5|acc_norm|0.5277|±  |0.0050|
+|arc_easy     |      1|none  |     5|acc     |0.6313|±  |0.0099|
+|             |       |none  |     5|acc_norm|0.6204|±  |0.0100|
+|arc_challenge|      1|none  |     5|acc     |0.2901|±  |0.0133|
+|             |       |none  |     5|acc_norm|0.3140|±  |0.0136|
+
+Mamba 2.8B Few-shot
+hf (pretrained=state-spaces/mamba-2.8b-hf), gen_kwargs: (None), limit: None, num_fewshot: 5, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     5|acc     |0.4900|±  |0.0050|
+|             |       |none  |     5|acc_norm|0.6616|±  |0.0047|
+|arc_easy     |      1|none  |     5|acc     |0.7088|±  |0.0093|
+|             |       |none  |     5|acc_norm|0.7146|±  |0.0093|
+|arc_challenge|      1|none  |     5|acc     |0.3481|±  |0.0139|
+|             |       |none  |     5|acc_norm|0.3831|±  |0.0142|
+
+Pythia 2.8B Few-shot
+hf (pretrained=EleutherAI/pythia-2.8b), gen_kwargs: (None), limit: None, num_fewshot: 5, batch_size: 64
+|    Tasks    |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|-------------|------:|------|-----:|--------|-----:|---|-----:|
+|hellaswag    |      1|none  |     5|acc     |0.4532|±  |0.0050|
+|             |       |none  |     5|acc_norm|0.6026|±  |0.0049|
+|arc_easy     |      1|none  |     5|acc     |0.6700|±  |0.0096|
+|             |       |none  |     5|acc_norm|0.6675|±  |0.0097|
+|arc_challenge|      1|none  |     5|acc     |0.3080|±  |0.0135|
+|             |       |none  |     5|acc_norm|0.3490|±  |0.0139|
+

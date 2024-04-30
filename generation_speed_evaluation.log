@@ -1,0 +1,170 @@
+Model: Mamba 130M Given Prompt
+Loading model state-spaces/mamba-130m
+Number of parameters: 129135360
+["My cat wrote all this CUDA code for a new language model and I'm trying to figure out how to use it.\n\nA:\n\nYou can use the CUDA compiler to compile your code.\n\nA:\n\nYou can use the CUDA compiler to compile your code.\n\nA:\n\nYou can use the CUDA compiler to compile your code.\n\nA:\n\nYou can use the CUDA compiler to compile your code.\n\nA:\n\nYou can use the CUDA compiler to compile your code"]
+Prompt length: 14, generation length: 100
+Avg Time: 105.21626472473145
+Variance: 1.987057666728729
+
+
+Model: Pythia 160M Given Prompt
+Loading model EleutherAI/pythia-160m
+Number of parameters: 162322944
+['My cat wrote all this CUDA code for a new language model and I\'m not sure what to do.\n\nA:\n\nI think you should use the following code:\n#include <cstdio>\n#include <cstdlib>\n#include <cstring>\n#include <cmath>\n\nint main()\n{\n    std::cout << "Hello World!" << std::endl;\n    return 0;\n}\n\nint main()\n{\n    std::cout << "Hello World!" << std::']
+Prompt length: 14, generation length: 100
+Avg Time: 1071.455717086792
+Variance: 12.070374180575488
+
+
+Model: Mamba 370M Given Prompt
+Loading model state-spaces/mamba-370m
+Number of parameters: 371516416
+["My cat wrote all this CUDA code for a new language model and I'm trying to figure out how to use it. I'm not sure if I should be using CUDA or OpenCL.\n\nA:\n\nCUDA is a programming language, not a graphics library.  It is a programming language that can be used to write graphics programs.  It is not a graphics library.\nOpenCL is a programming language that can be used to write graphics programs.  It is a graphics library.  It is not a graphics programming language.\n"]
+Prompt length: 14, generation length: 100
+Avg Time: 208.56571197509766
+Variance: 5.431436688557781
+
+
+Model: Pythia 410M Given Prompt
+Loading model EleutherAI/pythia-410m
+Number of parameters: 405334016
+["My cat wrote all this CUDA code for a new language model and I'm trying to understand how to use it.\nI have a model that is a simple one-dimensional array of integers. I want to use it to train a neural network.\nI have a model that is a simple one-dimensional array of integers. I want to use it to train a neural network.\nI have a model that is a simple one-dimensional array of integers. I want to use it to train a neural network.\nI have a model that is a simple"]
+Prompt length: 14, generation length: 100
+Avg Time: 1984.4135284423828
+Variance: 12.301053260637275
+
+
+Model: Mamba 790M Given Prompt
+Loading model state-spaces/mamba-790m
+Number of parameters: 793204224
+["My cat wrote all this CUDA code for a new language model and I'm trying to figure out how to get it to run on my GPU.  I'm using the CUDA Toolkit 4.0.  I've tried to compile the code with nvcc -arch=sm_20 -o my_model.cu my_model.cu.o -lcurand -lcudart -lcudart_static -lcudart_static_static -lcudart_static_static_static -lcudart_static_static"]
+Prompt length: 14, generation length: 100
+Avg Time: 272.4552631378174
+Variance: 2.7956039939527932
+
+
+Model: Pythia 1B Given Prompt
+Loading model EleutherAI/pythia-1b
+Number of parameters: 1011781632
+["My cat wrote all this CUDA code for a new language model and I'm trying to use it to train a language model. I'm using the following code:\n#include <iostream>\n#include <string>\n#include <vector>\n#include <cuda.h>\n#include <cuda_runtime.h>\n#include <cuda_runtime_api.h>\n#include <cuda_runtime_api_helper.h>\n#include <cuda_runtime_api_helper_helper"]
+Prompt length: 14, generation length: 100
+Avg Time: 1473.8488674163818
+Variance: 44.84186385829464
+
+
+Model: Mamba 1.4B Given Prompt
+Loading model state-spaces/mamba-1.4b
+Number of parameters: 1372178432
+["My cat wrote all this CUDA code for a new language model and it's not working.\nI'm using the CUDA SDK and the CUDA Toolkit.\nI'm using the CUDA C++ compiler.\nI'm using the CUDA Toolkit 5.5.\nI'm using the CUDA 7.5.\nI'm using the CUDA 7.5.5.\nI'm using the CUDA 7.5.6.\nI'm using the CUDA 7.5.7.\nI'm using the CU"]
+Prompt length: 14, generation length: 100
+Avg Time: 350.80065727233887
+Variance: 0.488284244192897
+
+
+Model: Pythia 1.4B Given Prompt
+Loading model EleutherAI/pythia-1.4b
+Number of parameters: 1414647808
+["My cat wrote all this CUDA code for a new language model and I'm trying to understand it.\n\nA:\n\nThe CUDA code is written in C++.  The C++ code is compiled to machine code, which is then executed by the CPU.  The CPU is a general purpose processor, not a GPU.  The GPU is a specialized processor for graphics.\nThe GPU is a specialized processor for graphics.  The GPU is a specialized processor for graphics.  The GPU is a specialized processor for graphics.  The GPU is a"]
+Prompt length: 14, generation length: 100
+Avg Time: 2025.340747833252
+Variance: 26.485502496348822
+
+
+Model: Mamba 2.8B Given Prompt
+Loading model state-spaces/mamba-2.8b
+Number of parameters: 2768345600
+["My cat wrote all this CUDA code for a new language model and I'm trying to get it to run on my GPU. I'm using the CUDA-enabled version of the Caffe framework.\nI've been following the instructions here: http://caffe.berkeleyvision.org/installation.html#cuda\nI've installed the CUDA toolkit and the cuDNN library. I've also installed the CUDA-enabled version of Caffe.\nI've also installed the CUDA-enabled version of the Caffe framework"]
+Prompt length: 14, generation length: 100
+Avg Time: 587.1201515197754
+Variance: 5.880955301078148
+
+
+Model: Pythia 2.8B Given Prompt
+Loading model EleutherAI/pythia-2.8b
+Number of parameters: 2775208960
+['My cat wrote all this CUDA code for a new language model and I want to use it in my own project.\nI have installed CUDA and CUDA Toolkit on my computer.\nI have downloaded the CUDA source code from the CUDA website.\nI have compiled the CUDA source code using the command:\nnvcc -arch=sm_35 -o my_program my_program.cu\n\nI have created a new project in Visual Studio 2010 and added the CUDA source code to the project.\nI have added the']
+Prompt length: 14, generation length: 100
+Avg Time: 2725.459623336792
+Variance: 88.71467264469283
+
+
+Model: Mamba 130M Random Prompt
+Loading model state-spaces/mamba-130m
+Number of parameters: 129135360
+Prompt length: 100, generation length: 100
+Avg Time: 104.5691967010498
+Variance: 1.5717843078563694
+
+
+Model: Pythia 160M Random Prompt
+Loading model EleutherAI/pythia-160m
+Number of parameters: 162322944
+Prompt length: 100, generation length: 100
+Avg Time: 1075.8484840393066
+Variance: 29.161278227285184
+
+
+Model: Mamba 370M Random Prompt
+Loading model state-spaces/mamba-370m
+Number of parameters: 371516416
+Prompt length: 100, generation length: 100
+Avg Time: 206.455659866333
+Variance: 1.6579333986534135
+
+
+Model: Pythia 410M Random Prompt
+Loading model EleutherAI/pythia-410m
+Number of parameters: 405334016
+Prompt length: 100, generation length: 100
+Avg Time: 1928.1175136566162
+Variance: 2.5330113578244977
+
+
+Model: Mamba 790M Random Prompt
+Loading model state-spaces/mamba-790m
+Number of parameters: 793204224
+Prompt length: 100, generation length: 100
+Avg Time: 272.7047920227051
+Variance: 4.02182275322283
+
+
+Model: Pythia 1B Random Prompt
+Loading model EleutherAI/pythia-1b
+Number of parameters: 1011781632
+Prompt length: 100, generation length: 100
+Avg Time: 1405.0633430480957
+Variance: 6.874373008981405
+
+
+Model: Mamba 1.4B Random Prompt
+Loading model state-spaces/mamba-1.4b
+Number of parameters: 1372178432
+Prompt length: 100, generation length: 100
+Avg Time: 353.3355712890625
+Variance: 1.2981722080114815
+
+
+Model: Pythia 1.4B Random Prompt
+Loading model EleutherAI/pythia-1.4b
+Number of parameters: 1414647808
+Prompt length: 100, generation length: 100
+Avg Time: 2013.7009620666504
+Variance: 19.47437058926823
+
+
+Model: Mamba 2.8B Random Prompt
+Loading model state-spaces/mamba-2.8b
+Number of parameters: 2768345600
+Prompt length: 100, generation length: 100
+Avg Time: 582.8464031219482
+Variance: 1.0297954710202275
+
+
+Model: Pythia 2.8B Random Prompt
+Loading model EleutherAI/pythia-2.8b
+Number of parameters: 2775208960
+Prompt length: 100, generation length: 100
+Avg Time: 2579.964590072632
+Variance: 5.362228765714503
+
+
